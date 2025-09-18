@@ -55,6 +55,12 @@
 #define MAX7456_SPI_BUS         BUS_SPI2
 #define MAX7456_CS_PIN          PB12
 
+// *************** BARO BMP280 *****************************
+#define USE_BARO
+#define USE_BARO_BMP280
+#define BARO_SPI_BUS           BUS_SPI2
+#define BMP280_CS_PIN          PB15
+
 // *************** UART *****************************
 #define USE_VCP
 #define VBUS_SENSING_PIN        PC15
